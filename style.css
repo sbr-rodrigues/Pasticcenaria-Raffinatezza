@@ -18,13 +18,22 @@ body {
   object-fit: cover;
   opacity: 0.6; 
 }
+
+.video-pequeno {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
 .menu {
   width: 80%;
-  background-color:#f2d2cf;
+  background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 40px;
   max-width: 800px;
+  opacity: 0.8;
 }
 
 hr {
