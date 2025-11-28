@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  color: #f5f6f7;
+  color: burlywood;
   font-size: 20px;
   font-family: Tahoma;
   padding: 20px;
@@ -28,7 +28,7 @@ body {
 
 .menu {
   width: 80%;
-  background-color: burlywood;
+  background-color: #f5f6f7;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
@@ -42,13 +42,13 @@ hr {
   border-color: brown;
 }
 
-  header{
-    background: rgba(120, 120, 120, 0.12);
-    padding:18px;
-    text-align:center;
+header {
+  background: rgba(120, 120, 120, 0.12);
+  padding: 18px;
+  text-align: center;
 }
 
-h1,h2, p {
+h1, h2, p {
   margin: 1em auto;
   text-align: center;
 }
@@ -61,6 +61,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  margin-top: 40px;
 }
 
 .established {
@@ -75,21 +76,73 @@ img {
   width: 10%;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
+}
+
+.imagem-direita {
+  float: right; 
+  margin-left: 20px;  /* distância entre a imagem e o texto */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.imagem-direita img {
+  width: 240px; /* ajuste se quiser */
+  display: block;
+  margin: 0 auto;
 }
 
 .margem-direita {
   float: right;
-  margin-left: 20px; 
-  width: 250px;
+  margin-left: 20px;
+  margin-bottom: 20px; /* espaçamento abaixo da imagem */
+}
+
+.legenda {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #444;
+}
+
+section {
+  margin-top: 100px; 
+}
+
+.espacamento {
+  margin-top: 350px;
+}
+
+.lado-a-lado {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.lado-a-lado img {
+  width: 350px;
+  display: block;
+}
+
+.lado-a-lado figcaption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0;
   font-size: 18px;
+}
+
+.clear {
+  clear: both;
 }
 
 .flavor, .dessert {
