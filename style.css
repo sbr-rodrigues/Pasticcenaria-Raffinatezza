@@ -81,13 +81,13 @@ img {
 
 .imagem-direita {
   float: right; 
-  margin-left: 20px;  /* distância entre a imagem e o texto */
+  margin-left: 20px; 
   margin-bottom: 20px;
   text-align: center;
 }
 
 .imagem-direita img {
-  width: 240px; /* ajuste se quiser */
+  width: 240px;
   display: block;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ img {
 .margem-direita {
   float: right;
   margin-left: 20px;
-  margin-bottom: 20px; /* espaçamento abaixo da imagem */
+  margin-bottom: 20px;
 }
 
 .legenda {
@@ -210,3 +210,4 @@ input[type="submit"] {
 a {
   color: #deb887;
 }
+
