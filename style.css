@@ -96,6 +96,12 @@ ul {
   padding-left: 20px;
 }
 
+.logo-central {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* ajuste conforme o tamanho desejado */
+}
+
 .prendi-marito {
   display: flex;
   justify-content: center;
