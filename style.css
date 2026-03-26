@@ -52,13 +52,7 @@ header {
   text-align: center;
 }
 
-header img, .logo-central {
-  display: block;
-  margin: 0 auto;   
-  width: 150px;    
-}
-
-h2, p {
+p {
   margin: 1em 0;
   text-align: left;
 }
@@ -94,35 +88,6 @@ ul {
   display: inline-block;
   margin: 20px auto;
   padding-left: 20px;
-}
-
-.logo-central {
-  display: block;
-  margin: 0 auto;
-  width: 150px; /* ajuste conforme o tamanho desejado */
-}
-
-.prendi-marito {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px; /* espaço entre texto e imagem */
-  margin-top: 80px;
-}
-
-.prendi-marito .texto {
-  flex: 2; /* ocupa mais espaço */
-  text-align: center;
-}
-
-.prendi-marito .imagem {
-  flex: 1;
-  text-align: center;
-}
-
-.prendi-marito img {
-  width: 240px;
-  margin: 0 auto;
 }
 
 img {
@@ -165,11 +130,6 @@ section {
   margin-top: 80px;
 }
 
-.lado-a-lado {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
 
 .lado-a-lado img {
   width: 350px;
