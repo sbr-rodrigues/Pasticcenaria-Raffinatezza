@@ -59,8 +59,8 @@ header img, .logo-central {
 }
 
 h1, h2, p {
-  margin: 1em auto;
-  text-align: center;
+  margin: 1em 0;
+  text-align: left;
 }
 
 h1 {
