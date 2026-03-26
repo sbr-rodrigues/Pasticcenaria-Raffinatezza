@@ -34,7 +34,7 @@ body {
   background-color: #f5f6f7;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
+  padding: 60px;
   max-width: 1000px;
   opacity: 0.8;
   text-align: center; 
@@ -74,6 +74,13 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+  margin: 20px auto;
+  padding-left: 20px;
 }
 
 ul {
