@@ -21,6 +21,7 @@ body {
 
 .video-pequeno {
   width: 50%;
+  max-width: 200px;
   height: auto;
   display: block;
   border-radius: 10px;
