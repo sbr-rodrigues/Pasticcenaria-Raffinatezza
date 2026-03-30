@@ -1,6 +1,5 @@
 body {
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   color: burlywood;
   font-size: 20px;
@@ -31,12 +30,11 @@ body {
 
 .menu {
   width: 80%;
-  background-color: #f5f6f7;
+  background-color: rgba(245, 246, 247, 0.8);
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 60px 80px;
   max-width: 1000px;
-  opacity: 0.8;
   text-align: center; 
 }
 
@@ -71,19 +69,11 @@ h2 {
 .established {
   font-style: italic;
   font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
+  text-align: center; /* 👈 força centralização */
+  margin: 10px 0 30px 0; /* 👈 espaço abaixo */
 }
 
-ol {
-  text-align: left;
-  display: inline-block;
-  margin: 20px auto;
-  padding-left: 20px;
-}
-
-ul {
+ol, ul {
   text-align: left;
   display: inline-block;
   margin: 20px auto;
@@ -91,7 +81,6 @@ ul {
 }
 
 img {
-  width: 10%;
   height: auto;
   display: block;
   margin: 20px auto;
@@ -110,12 +99,6 @@ img {
   margin: 0 auto;
 }
 
-.margem-direita {
-  float: right;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
 .legenda {
   font-size: 14px;
   margin-top: 5px;
@@ -123,9 +106,15 @@ img {
 }
 
 section {
-  margin-top: 40px; 
+  margin-top: 40px;
+  overflow: hidden;
 }
 
+section img:first-of-type {
+  display: block;
+  margin: 0 auto 20px auto;
+  clear: both; 
+}
 .espacamento {
   margin-top: 80px;
 }
@@ -144,9 +133,10 @@ section {
 
 .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+  gap: 40px;
 }
 
 .item p {
@@ -154,18 +144,14 @@ section {
   font-size: 18px;
 }
 
-.clear {
-  clear: both;
-}
-
 .flavor, .dessert {
   text-align: left;
-  width: 75%;
+  width: auto;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: auto;
 }
 
 form {
@@ -179,10 +165,6 @@ form {
 fieldset {
   border: none;
   padding: 2rem 0;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
 }
 
 label {
@@ -224,3 +206,6 @@ a {
   color: #deb887;
 }
 
+footer {
+  text-align: center;
+}
