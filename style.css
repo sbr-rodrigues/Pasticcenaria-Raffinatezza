@@ -134,27 +134,25 @@ section img:first-of-type {
   font-size: 14px;
 }
 
+.item p {
+  margin: 0;
+  font-size: 18px;
+}
 .item {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
   margin: 0 auto;
-   }
-
-.item p {
-  margin: 0;
-  font-size: 18px;
-}
-
-.flavor, .dessert {
-  text-align: left;
-  width: auto;
-  margin-left: 60px;
 }
 
 .price {
   text-align: right;
-  width: auto;  
+  min-width: 80px;  
+}
+.flavor, .dessert {
+  text-align: left;
+  width: auto;
+  margin-left: 60px;
 }
 
 form {
