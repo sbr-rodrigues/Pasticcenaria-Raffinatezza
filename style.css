@@ -4,7 +4,7 @@ body {
   color: burlywood;
   font-size: 20px;
   font-family: Tahoma;
-  padding: 20px;
+  padding: 40px;
 }
 
 #bg-video {
@@ -81,6 +81,7 @@ ol, ul {
 }
 
 img {
+  width: 10%;
   height: auto;
   display: block;
   margin: 20px auto;
